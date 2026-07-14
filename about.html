@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="About Hidden Lyfestyle and book styling services with Melody.">
+  <title>About & Contact — Hidden Lyfestyle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">HIDDEN LYFESTYLE</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html" aria-current="page">About / Contact</a>
+      <a href="https://www.instagram.com/styledbymelody1/" target="_blank" rel="noreferrer">Instagram ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="about-hero">
+      <div class="reveal">
+        <p class="eyebrow">The vision</p>
+        <h1>IMAGE IS<br>NEVER<br>ACCIDENTAL.</h1>
+      </div>
+      <div class="about-copy reveal">
+        <p class="lead">Hidden Lyfestyle is a fashion styling and creative direction brand led by Melody.</p>
+        <p>Every look begins with identity. We translate personality, ambition, movement, music, and culture into clothing that feels intentional, memorable, and fully your own.</p>
+        <p>From private clients and personal shopping to performances, campaigns, press appearances, and complete image development, the goal stays the same: create a visual language people remember.</p>
+      </div>
+    </section>
+
+    <section class="split-image reveal">
+      <div class="image-slot"><img src="assets/images/look-05.jpg" alt="Hidden Lyfestyle editorial styling" onerror="this.remove()"><span>LOOK 05</span></div>
+      <div class="image-slot"><img src="assets/images/look-06.jpg" alt="Hidden Lyfestyle creative direction" onerror="this.remove()"><span>LOOK 06</span></div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">Inquiries</p>
+        <h2>YOUR NEXT<br>LOOK STARTS<br>HERE.</h2>
+        <p>Tell us what you are preparing for, when you need it, and the kind of direction you have in mind.</p>
+      </div>
+      <form id="booking-form" class="booking-form reveal">
+        <label>Name<input name="name" type="text" required></label>
+        <label>Email<input name="email" type="email" required></label>
+        <label>Service<select name="service" required><option value="">Choose one</option><option>Celebrity / Talent Styling</option><option>Creative Direction</option><option>Personal Shopping</option><option>Editorial / Campaign</option><option>Other</option></select></label>
+        <label>Project date<input name="date" type="date"></label>
+        <label class="full">Project details<textarea name="message" rows="5" required></textarea></label>
+        <button type="submit">Start an inquiry ↗</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <span>Hidden Lyfestyle</span>
+    <a href="https://www.instagram.com/styledbymelody1/" target="_blank" rel="noreferrer">@styledbymelody1 ↗</a>
+    <span>© <span id="year"></span></span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
